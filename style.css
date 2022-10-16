@@ -4,8 +4,16 @@
 
 body{
     font-family: 'Roboto', sans-serif !important;
+    -ms-overflow-style: none;
+    scrollbar-width: none; 
 }
 
 .main-logo-12345{
     border-radius: 50%; 
 }
+
+::-webkit-scrollbar {
+    display: none;
+  }
+
+  
