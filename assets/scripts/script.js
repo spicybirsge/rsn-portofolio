@@ -15,7 +15,7 @@ try {
 
     document.getElementById('latest-vid-iframe').src=`https://www.youtube.com/embed/${data.last_video_id}`
 } catch{
-    document.getElementById('latest-vid-iframe').src=`https://www.youtube.com/embed/DnH1xyk9xK0`   
+    document.getElementById('latest-vid-iframe').src=`https://www.youtube.com/embed/3u1LhSCX5Gw`   
 }
 })
 
