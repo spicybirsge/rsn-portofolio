@@ -46,11 +46,13 @@ body{
   }
   .border-2 {
     border: 2px solid #ff0000 !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
     padding: 10px;
 
     display: none;
     border-radius: 35px;
-    width: 50vh;
+
     margin: 0 auto;
   }
 
