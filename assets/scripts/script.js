@@ -40,9 +40,12 @@ try {
 
     const data = await fetchLV.json()
 
-    document.getElementById('latest-vid-iframe').src=`https://www.youtube.com/embed/${data.last_video_id}`
-} catch{
-    document.getElementById('latest-vid-iframe').src=`https://www.youtube.com/embed/3u1LhSCX5Gw`   
+   data.last_3.forEach(e => {
+    document.getElementById("videos").innerHTML+= `
+    <div class="ratio ratio-16x9 "> <iframe id="latest-vid-iframe" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen src='https://youtube.com/embed/${e}'></iframe></div><br>`
+   })
+} catch(e){
+   console.error(e)   
 }
 })
 
