@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () { 
     new TypeIt("#typingaboutme", { 
-        strings: ["I am a gaming YouTuber that uploads videos about free fire, and more!"], 
+        strings: ["Hi guys I'm a small content creator, my name is Rusni. This is a gaming channel, I will upload gameplays, free fire shorts, custom matches, tips and tricks, redeem codes and more. Please like share and subscribe and don't forget to turn on the notification bell. "], 
         speed: 50,
         afterComplete: (step, i) => {
           
