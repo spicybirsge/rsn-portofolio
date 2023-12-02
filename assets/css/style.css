@@ -15,5 +15,46 @@ body{
 ::-webkit-scrollbar {
     display: none;
   }
+  .confetti {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: #f00;
+    pointer-events: none;
+    z-index: 1000;
+    animation: confetti-fall linear infinite both;
+  }
 
+  @keyframes confetti-fall {
+    0% {
+      transform: translateY(-100vh) rotateZ(0);
+    }
+    100% {
+      transform: translateY(100vh) rotateZ(720deg);
+    }
+  }
+  @keyframes colorChange {
+    0% { color: red; }
+    50% { color: white; }
+    100% { color: red; }
+  }
+  
+  .thank-you-animation {
+    animation: colorChange 2s infinite;
+ 
+    
+  }
+  .border-2 {
+    border: 2px solid #ff0000 !important;
+    padding: 10px;
+    margin-top: 0px;
+    display: none;
+    border-radius: 35px;
+    width: fit-content;
+    margin: 0 auto;
+  }
+
+  .before-thank-youtyped {
+color: red;
+  }
   
