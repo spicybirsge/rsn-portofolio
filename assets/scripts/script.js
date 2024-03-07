@@ -32,7 +32,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 document.addEventListener('DOMContentLoaded', async function() {
-    const url = `https://api.rsngaming.tk/api/v1/latest_video?key=810c76f9d289e2db2ca07c3a5b9298d4d50eb6be221211d1c51e1a968d6696f43b57a53923ff326beb565ca1a0b0e8a1ea206ffac6592af2c03d02be3bf97804afca5d5c7f42bd8d`
+    const url = `https://rsn-api.vercel.app/api/v1/latest_video?key=810c76f9d289e2db2ca07c3a5b9298d4d50eb6be221211d1c51e1a968d6696f43b57a53923ff326beb565ca1a0b0e8a1ea206ffac6592af2c03d02be3bf97804afca5d5c7f42bd8d`
 try {
     const fetchLV = await fetch(url, {
         method: 'GET'
